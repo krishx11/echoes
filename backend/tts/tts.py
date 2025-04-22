@@ -16,5 +16,6 @@ def speak_text(text: str, speaker_path: str = "voice_sample.wav", output_path: s
     
     # Save WAV file
     sf.write(output_path, wav, tts.synthesizer.output_sample_rate)
-    
+    sd.play(wav, samplerate=tts.synthesizer.output_sample_rate)
+    sd.wait()
     return output_path  # path for Flask to return
