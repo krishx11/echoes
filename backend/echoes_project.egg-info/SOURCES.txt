@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+echoes_project.egg-info/PKG-INFO
+echoes_project.egg-info/SOURCES.txt
+echoes_project.egg-info/dependency_links.txt
+echoes_project.egg-info/requires.txt
+echoes_project.egg-info/top_level.txt

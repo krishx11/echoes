@@ -1,0 +1,25 @@
+# Web framework
+Flask
+
+# Audio processing
+librosa
+soundfile
+scipy
+numpy
+
+# Speech-to-text (STT)
+transformers
+datasets
+torchaudio
+sentencepiece
+
+# Text-to-speech (TTS) with voice cloning
+resemblyzer
+TTS           # Coqui TTS for synthesizing cloned voices
+
+# Chatbot
+openai
+
+# Optional but useful
+pydub
+ffmpeg-python
